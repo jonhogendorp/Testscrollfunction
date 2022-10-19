@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    height: 60vh;
+    background-color: blueviolet;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: 2000px;
+    margin: 150px 0 ;
+    width: 50vw;
+    background-color: aquamarine;
+}
+
+p{
+    font-size: 50px;
+    margin: 200px;
+}
+
+.diff{
+    background:yellowgreen;
+    height:600px;
+    overflow: scroll;
+}
