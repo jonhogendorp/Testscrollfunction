@@ -3,6 +3,11 @@
     padding: 0;
     color: white;
 }
+.real-container{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+}
 
 .header{
     background-color: aqua;
@@ -10,24 +15,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .section{
-    height: 60vh;
-    background-color: blueviolet;
+    height: 100vh;
     overflow:auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    scroll-snap-align:start;
+    position: relative;
+}
+
+.one{
+    background-color: blueviolet;
+}
+
+.two{
+    background-color: rgb(8, 130, 31);
+}
+
+.three{
+    background-color: rgb(217, 49, 88);
+}
+
+.four{
+    background-color: rgb(226, 168, 43);
 }
 
 .container{
-    height: 2000px;
-    margin: 150px 0 ;
+    height: 300vh;
     width: 50vw;
-    background-color: aquamarine;
+    background-color: aqua;
+
 }
 
 p{
@@ -37,6 +58,6 @@ p{
 
 .diff{
     background:yellowgreen;
-    height:600px;
+    height:100vh;
     overflow: scroll;
 }
